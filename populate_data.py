@@ -3,11 +3,10 @@ import django
 import random
 from faker import Faker
 from first_app.models import Topic,webpage,accessRecord
-import pdb
+
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'first_prject.settings')
 
-pdb.set_trace()
 django.setup()
 
 fakegen=Faker()
